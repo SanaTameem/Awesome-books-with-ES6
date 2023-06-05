@@ -11,20 +11,17 @@ class App {
   }
 
   // Remove book function
-  // eslint-disable-next-line class-methods-use-this
-  myRemoveBook() {
+  myRemoveBook = () => {
     removeBook();
   }
 
   // display book function
-  // eslint-disable-next-line class-methods-use-this
-  myDisplayBook() {
+  myDisplayBook = () => {
     displayBook();
   }
 
   // add Book function
-  // eslint-disable-next-line class-methods-use-this
-  myAddBook() {
+  myAddBook = () => {
     addBook();
   }
 }
